@@ -50,7 +50,7 @@ img.bio {
 .card-body{
     color: black;
     background-color: lightgray;
-    flex-grow: 1;
+    flex-grow: inherit;
 }
 
 body {
