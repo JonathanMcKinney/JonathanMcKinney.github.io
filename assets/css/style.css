@@ -7,6 +7,10 @@
     font-size: 30px;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .profIcon{
     height: 60px;
 }
@@ -43,14 +47,23 @@ img.bio {
     flex-direction: column; 
 }
 
+.card:hover:hover { 
+    transform: scale(1.1);
+}
+
 .projectImg{
     height: 200px;
+}
+
+.card-image-top:hover{
+    transform: scale(1.5);
 }
 
 .card-body{
     color: black;
     background-color: lightgray;
     flex-grow: inherit;
+    border-top: 3px solid black;
 }
 
 body {
