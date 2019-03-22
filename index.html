@@ -33,26 +33,27 @@
 </head>
 
 <body>
-        <div id="myModal" class="modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title">Site Under Construction</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div id="myModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site Under Construction</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="./assets/images/under-construction-gif-11.gif" alt="construction" class="modalImg">
-                    </div>
-                  </div>
+                    </button>
                 </div>
-              </div>
+                <div class="modal-body">
+                    <img src="./assets/images/under-construction-gif-11.gif" alt="construction" class="modalImg">
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar transparent navbar-expand-lg navbar-inner">
+
         <div class="d-flex flex-grow-1">
-
-            <a class="navbar-brand d-none d-lg-inline-block navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+            <a class="navbar-brand d-none d-lg-inline-block navbar-brand-two mx-auto d-lg-none d-inline-block"
+                href="index.html">
                 Jonathan McKinney
             </a>
             <div class="w-100 text-right">
@@ -74,20 +75,32 @@
                 </li>
             </ul>
         </div>
+
     </nav>
 
 
     <div class="container">
         <div class="row-justify-content-start">
-            <div class="col-md-9">
+            <div class="col-md-12 text-center">
                 <h2>About Me</h2>
                 <hr>
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="assets/images/profile-picture-edit.jpg"
-                            class="img-fluid max-width: 33.3%; height: auto; float-left bio" alt="Jonathan McKinney">
+                    <div class="col-md-3 photoSeperator">
+                        <div class="row-justify-content-start">
+                            <img src="assets/images/profile-picture-edit.jpg"
+                                class="img-fluid max-width: 33.3%; height: auto; float-left bio"
+                                alt="Jonathan McKinney">
+                        </div>
+                        <div class="row-justify-content-start">
+                            <a href="https://www.linkedin.com/in/jonathan-mckinney-670668143/" target="blank"><img
+                                    class='profIcon' src="./assets/images/linkIn.svg"
+                                    alt="https://www.linkedin.com/in/jonathan-mckinney-670668143/"></a>
+                            <a href="https://github.com/JonathanMcKinney" target="blank"><img class='profIcon'
+                                    src="./assets/images/github.svg" alt="https://github.com/JonathanMcKinney"></a>
+                        </div>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-1 bio"></div>
+                    <div class="col-md-7 text-left">
                         <p>I grew up outside of Atlanta in Marietta, GA, until moving to Boone, NC, for college in 2008.
                             I
                             attended
@@ -121,8 +134,8 @@
 
 
 
-    <footer class="page-footer font-small bg-dark fixed-bottom">
-        <div class="footer footer-copyright text-center py-3  bg-dark">
+    <footer class="page-footer font-small fixed-bottom  transparent">
+        <div class="footer footer-copyright text-center py-3 text-center">
             &copy; Jonathan McKinney 2018
         </div>
     </footer>
