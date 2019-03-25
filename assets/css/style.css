@@ -11,6 +11,11 @@
     text-decoration: underline;
 }
 
+.navbar-toggler{
+    /* color: white; */
+    
+}
+
 .profIcon{
     height: 60px;
 }

@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar transparent navbar-expand-lg navbar-inner">
+    <nav class="navbar transparent navbar-expand-lg navbar-inner navbar-dark">
 
         <div class="d-flex flex-grow-1">
             <a class="navbar-brand d-none d-lg-inline-block navbar-brand-two mx-auto d-lg-none d-inline-block"
@@ -49,24 +49,31 @@
 
 
     <div class="container">
-        <form method="POST" action="https://formspree.io/jsmckinney89@gmail.com">
-            <div class="form-group">
-                <label for="inputName">Name</label>
-                <input type="name" name="name" class="form-control" id="inputName" aria-describedby="nameHelp"
-                    placeholder="Enter name">
-            </div>
-            <div class="form-group">
-                <label for="emailInput">E-mail</label>
-                <input type="e-mail" name="email" class="form-control" id="emailInput" placeholder="E-mail">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea name="message" placeholder="Your message..." class="form-control"
-                    id="exampleFormControlTextarea1" rows="5"></textarea>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+
+                <form method="POST" action="https://formspree.io/jsmckinney89@gmail.com">
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="name" name="name" class="form-control" id="inputName" aria-describedby="nameHelp"
+                            placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">E-mail</label>
+                        <input type="e-mail" name="email" class="form-control" id="emailInput" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea name="message" placeholder="Your message..." class="form-control"
+                            id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
     </div>
 
     <footer class="page-footer font-small fixed-bottom transparent">
